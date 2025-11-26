@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Today</h1>
+    <p>Weather conditions in your city</p>
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="weather" id="weather">
+      <div class="date" id="date">
+        
+      </div>
+      <div class="city" id="city"></div>
+      <img class="icon" id="icon" src="" alt="weather icon"/>
+      <div class="temp" id="temp"></div>
+      <div class="description" id="description"></div>
+      <di  class="details">
+        <div>Humidity: <span id="humidity"></span>%</div>
+        <div>Wind: <span id="wind"></span> m/s</div>
+        <div>Pressure: <span id="pressure"></span> hPa</div>
+      </div>
+      <div class="error" id="error"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
